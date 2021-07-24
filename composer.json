@@ -1,0 +1,32 @@
+{
+    "name": "mohamedfayez/bitly",
+    "description": "Shorten Long Urls Using Bitly Api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Fayez",
+            "email": "m.fayez.radwan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bitly\\" : "Bitly/"
+        },
+        "files": [
+            "Src/Helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bitly\\Src\\BitlyServicesProvider"
+            ],
+            "aliases": {
+                "Bitly": "Bitly\\Src\\Bitly"
+            }
+        }
+    }
+}
