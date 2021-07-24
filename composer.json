@@ -22,10 +22,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bitly\\Src\\BitlyServicesProvider"
+                "MohamedFayez\\Bitly\\BitlyServicesProvider"
             ],
             "aliases": {
-                "Bitly": "Bitly\\Src\\Bitly"
+                "Bitly": "MohamedFayez\\Bitly\\Bitly"
             }
         }
     }
