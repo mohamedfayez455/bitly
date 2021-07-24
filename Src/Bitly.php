@@ -11,7 +11,7 @@ class Bitly
             throw new \Exception('PLease Provide Long url');
         }
 
-        if (is_null($token == getBitlyToken())){
+        if (is_null($token == config('bitlyConfig.token')  )){
             throw new \Exception('please provide token in bitlyConfig.php ');
         }
 
