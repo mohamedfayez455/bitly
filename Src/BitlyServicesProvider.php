@@ -9,7 +9,7 @@ class BitlyServicesProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->bublishes([
+        $this->publishes([
             __DIR__.'/config/bitlyConfig.php' => config_path('bitlyConfig.php'),
         ],['bitlyConfig']);
     }
