@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitly\Src;
+namespace MohamedFayez\Bitly;
 
 use Illuminate\Support\ServiceProvider;
 
